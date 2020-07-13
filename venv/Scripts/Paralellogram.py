@@ -7,7 +7,3 @@ def paralellogram(total):
                     print(" " * (int((total / 2 - 1) - i)), "/", " " * 2 * i, "\\", sep="")
                 else:
                     print(" " * int(i - (total / 2)), "\\", " " * int((total - 2 * i) + total - 2), "/", sep="")
-
-
-
-paralellogram(12)
